@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+
+  # This means within pages controller it will run home method.
+  root 'pages#home'
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
